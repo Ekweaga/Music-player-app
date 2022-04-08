@@ -1,0 +1,64 @@
+<div class="head">
+    <h1>Buzz mack</h1>
+    <p>Explore and live stream more tunes and latest jams</p>
+    <button>Live streaming</button>
+</div>
+<div class="img">
+    <div> <img src="assets/b1.jpg"/>
+        <img src="assets/b5.jpg"/>
+        <img src="assets/b4.jpg"/>
+        <img src="assets/b6.jpg"/></div>
+   
+</div><br>
+<div class="feature"> 
+    <h2>Featuring</h2>
+   
+    <div class="new">
+        <h2>New Release</h2>
+        <div class="releases" *ngFor="let release of newreleases">
+        <img [src]="release.images[0].url"/>
+       
+    </div>
+    </div>
+    <div class="album">
+        <h2>Latest Album</h2>
+        <div class="release">
+        <img src="assets/b1.jpg"/>
+        <img src="assets/b2.jpg"/>
+        <img src="assets/b3.jpg"/>
+        <img src="assets/b5.jpg"/>
+        <img src="assets/b4.jpg"/>
+        <img src="assets/b6.jpg"/>
+    </div>
+    </div>
+    <div class="track">
+        <h2>Song Tracks</h2>
+        <div class="release">
+        <img src="assets/b1.jpg"/>
+        <img src="assets/b2.jpg"/>
+        <img src="assets/b3.jpg"/>
+        <img src="assets/b5.jpg"/>
+        <img src="assets/b4.jpg"/>
+        <img src="assets/b6.jpg"/>
+    </div>
+    </div>
+
+
+</div>
+
+
+<div>
+    <h3>
+        You can create an account
+    </h3>
+    <button>Create an account</button>
+    <span>Or</span>
+    <h3>
+        SignUp with an email to get new releases of more songs
+    </h3>
+    <div class="form">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Name">
+        <button>Subscribe</button>
+    </div>
+</div>
